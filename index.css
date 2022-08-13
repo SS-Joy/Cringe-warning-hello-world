@@ -1,0 +1,41 @@
+body {
+	text-align: center;
+	background-color: rgb(95, 176, 140);
+}
+h1 {
+	border: 16px solid black;
+	border-radius: 8px;
+	padding: 5px;
+	margin-top: 200px;
+	font-size: 100px;
+	transition: all 3s;
+}
+.small-big {
+	font-size: 150px;
+}
+.dot-border {
+	border-style: dotted;
+}
+#rocket {
+	text-align: start;
+	margin-bottom: 0px;
+}
+#rocket img {
+	margin: 10px;
+	height: 100px;
+	width: 100px;
+	transition: all 5s;
+}
+.rocket-go {
+	transform: rotate(360deg);
+}
+.moon-go {
+	transform: translate(1000px, 0px);
+}
+
+#sun {
+	margin-left: 900px;
+}
+.sun-go {
+	transform: translate(600px, 0px);
+}
